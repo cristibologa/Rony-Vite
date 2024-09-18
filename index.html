@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner container">
+        <a class="header__logo logo" href="/">
+          <img
+            class="logo__image"
+            src="./public/images/logo.png"
+            alt="Rony"
+            width="75" height="70" 
+            loading="lazy"
+          />
+        </a>
+        <nav class="header__menu hidden-mobile">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/"> Despre</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/">Servicii</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/">Prețuri</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/">Contacte</a>
+            </li>
+            
+          </ul>
+        </nav>
+        <button
+          class=" header__button button button--transparent hidden-mobile"
+          type="button"
+        >
+          Programare  
+        </button>
+        <button
+          class="header__burger-button burger-button visible-mobile"
+          type="button"
+          onclick="mobileOverlay.showModal()"
+        >
+          <span class="visually-hidden">Open navigation menu</span>
+        </button>
+      </div>
+    </header>
+  
+    <main class="content">
+      <section class="section--hidden-x">
+        <div class="section__body">
+          <div class="hero__wraper">
+            <div class="hero container">
+              <div class="hero__main">
+                  <h1 class="hero__title">
+                    Investește în pielea ta cu Aestethic Lab
+                  </h1>
+                  <div class="hero__description hidden-mobile">
+                    <p>Oferim servicii de înfrumusețare și tratamente, de cea mai bună calitate.</p>
+                  </div>
+                  <button class="button button--accent hero__button "
+                    type="button">
+                                    Programare  
+                        </button>
+                  
+              </div>
+              <img class="hero__img " src="./public/images/Hero2.png" width="710" height="857" alt="">
+              
+            </div>
+  
+            <div class="hero__achievement ">
+              <ul class="hero__achievement-list container">
+                <li class="hero__achievement-item"><img src="../public/images/icons/diamond.svg" alt="certificate" width="54" height="54">Produse de calitate</li>
+                <li class="hero__achievement-item"><img src="./public/images/icons/certificate.svg" alt="calificate" width="54" height="54">Personal calificat</li>
+                <li class="hero__achievement-item"><img src="./public/images/icons/guarante.svg" alt="standarde" width="54" height="54">Standarde înalte</li>
+              </ul>
+              
+            </div>
+          </div>
+          
+        </div>
+        
+      </section>
+  
+      <section class="section container">
+        <header class="section__header">
+          <h2 class="section__title puddle-bg">Serviciile noastre</h2>
+          <div class="section__description">
+            <p>Răsfață-te cu serviciile noastre pentru toate vârstele</p>
+          </div>
+        </header>
+  
+        <div class="service-body">
+          <div class="service">
+            <div class="swiper__wraper">
+              <div  class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <article class="swiper__card" >
+                        <img class="swiper__card-image" src="./public/images/service/nail.jpg" alt="">
+                        <div class="swiper__card-body">
+                          <h3 class="swiper__card-description">Tu ai luat</h3>  
+                          <div class="swiper__card-price">4200</div>
+                        </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide"><article class="swiper__card" >
+                    <img class="swiper__card-image" src="./public/images/service/nail.jpg" alt="">
+                    <div class="swiper__card-body">
+                      <h3 class="swiper__card-description">Tu ai luat</h3>  
+                      <div class="swiper__card-price">4200</div>
+                    </div>
+                </article></div>
+                  <div class="swiper-slide"><article class="swiper__card" >
+                    <img class="swiper__card-image" src="./public/images/service/nail.jpg" alt="">
+                    <div class="swiper__card-body">
+                      <h3 class="swiper__card-description">Tu ai luat</h3>  
+                      <div class="swiper__card-price">4200</div>
+                    </div>
+                </article></div>
+                  <div class="swiper-slide"><article class="swiper__card" >
+                    <img class="swiper__card-image" src="./public/images/service/nail.jpg" alt="">
+                    <div class="swiper__card-body">
+                      <h3 class="swiper__card-description">Tu ai luat</h3>  
+                      <div class="swiper__card-price">4200</div>
+                    </div>
+                </article></div>
+                  <div class="swiper-slide"><article class="swiper__card" >
+                    <img class="swiper__card-image" src="./public/images/service/nail.jpg" alt="">
+                    <div class="swiper__card-body">
+                      <h3 class="swiper__card-description">Tu ai luat</h3>  
+                      <div class="swiper__card-price">4200</div>
+                    </div>
+                </article></div>
+                  <div class="swiper-slide"><article class="swiper__card" >
+                    <img class="swiper__card-image" src="./public/images/service/nail.jpg" alt="">
+                    <div class="swiper__card-body">
+                      <h3 class="swiper__card-description">Tu ai luat</h3>  
+                      <div class="swiper__card-price">4200</div>
+                    </div>
+                </article></div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              
+            </div>
+            
+          </div>
+        </div>
+     </section>
+  
+  
+      
+    </main>
+  
+    <footer class="footer container">
+      
+    </footer>
+  
+    <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
+      <form class="mobile-overlay__close-button-wrapper" method="dialog">
+        <button
+          class="mobile-overlay__close-button cross-button"
+          type="submit"
+        >
+          <span class="visually-hidden">Close navigation menu</span>
+        </button>
+      </form>
+      <div class="mobile-overlay__body">
+        <ul class="mobile-overlay__list">
+          <li class="mobile-overlay__item">
+            <a class="mobile-overlay__link" href="/">Despre</a>
+          </li>
+          <li class="mobile-overlay__item">
+            <a class="mobile-overlay__link" href="/">Servicii</a>
+          </li>
+          <li class="mobile-overlay__item">
+            <a class="mobile-overlay__link" href="/">Prețuri</a>
+          </li>
+          <li class="mobile-overlay__item">
+            <a class="mobile-overlay__link" href="/">Contacte</a>
+          </li>
+          
+        </ul>
+      </div>
+    </dialog>
+  
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>

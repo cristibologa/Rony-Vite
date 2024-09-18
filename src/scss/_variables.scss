@@ -1,0 +1,35 @@
+:root {
+  --color-dark: #212121;
+  --color-light: #FFFFFF;
+  --color-accent: #ECD8BD;
+  
+
+  --border: 1px solid var(--color-light);
+  --border-radius: 50px;
+  
+
+
+  --shadow: 0 5px 0 0 var(--color-dark);
+
+  --font-family-base: 'Poppins Regular', sans-serif;
+
+  --container-width: 1580px;
+  --container-padding-x: 20px;
+
+  --section-padding-y: 70px;
+
+  --input-height: 59px;
+  --button-height: 56px;
+
+  --transition-duration: 0.2s;
+
+  --header-height: 90px;
+
+  @include desktop {
+    --section-padding-y: 50px;
+  }
+
+  @include mobile {
+    --section-padding-y: 30px;
+  }
+}

@@ -1,0 +1,53 @@
+.footer-body{
+	display: flex;
+	justify-content: space-between	;
+	padding-bottom: 30px;
+	@include mobile{
+		flex-direction: column;
+		row-gap: 30px;
+	}
+}
+.footer__social{
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	@include mobile{
+		align-items: center;
+	}
+}
+.social-list{
+	display: flex;
+	column-gap: 20px;
+}
+
+.footer__description{
+	display: flex;
+	column-gap: 100px;
+	@include mobile{
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+.footer_contact-title {
+	@include fluid-text(30 ,20)
+}
+.footer__program-title{
+	@include fluid-text(30 ,20)
+}
+
+.footer_contact{
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+.footer__program{
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+.footer__program-time{
+	display: flex;
+	flex-direction: column;
+}
